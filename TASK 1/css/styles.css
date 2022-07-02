@@ -1,0 +1,508 @@
+/* Importing Poppins Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #111;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #111;
+}
+
+li{
+    list-style: none;
+}
+
+section{
+    width: 100%;
+}
+
+.btn{
+    width: 250px;
+    font-weight: bold;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: crimson;
+    border-radius: 2px;
+}
+
+
+header{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 16px;
+    justify-content: space-between;
+    cursor: pointer;
+    box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.4);
+}
+
+header .part-1{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+}
+
+header .part-1 img{
+    width: 60px;
+    height: 60px;
+    margin-right: 8px;
+}
+
+header .part-1 a{
+    height: 60px;
+}
+
+header .part-1 a h1{
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.A{
+    color: crimson;
+    font-size: 40px;
+}
+
+header .part-2{
+    width: 35%;
+    align-self: center;
+}
+
+header .part-2 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .part-2 ul li{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 200px;
+}
+
+header .part-2 ul li:hover{
+    background-color: rgb(225, 225, 225);
+    padding: 10px;
+    border-radius: 200px;
+}
+
+
+#banner{
+    width: 90%;
+    margin: 10px auto;
+    flex-wrap: wrap;
+}
+
+#banner .odd{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#banner .odd .left{
+    width: 50%;
+    padding: 14px 28px;
+}
+
+#banner .odd .left h2{
+    font-weight: bold;
+    font-size: 28px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#banner .odd .left p{
+    padding: 14px 0px;
+    font-size: 18px;
+    text-align: center;
+}
+
+#banner .odd .right{
+    width: 50%;
+}
+
+#banner .odd .right img{
+    width: 600px;
+    height: 400px;
+}
+
+#banner .even{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#banner .even .left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#banner .even .left img{
+    width: 600px;
+    height: 400px;
+}
+
+#banner .even .right{
+    width: 50%;
+    padding: 14px 28px;
+}
+
+#banner .even .right h2{
+    font-weight: bold;
+    font-size: 28px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#banner .even .right p{
+    padding: 14px 0px;
+    font-size: 18px;
+    text-align: center;
+}
+
+#banner #first .left .options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#banner #first .left .options .btn{
+    width: 250px;
+    letter-spacing: 3px;
+}
+
+#banner #first .right img{
+    width: 600px;
+    height: 400px;
+}
+
+#banner .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+#banner .title p{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+#banner .title .fa-caret-down{
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.row{
+    width: 90% !important;
+    margin: 0 auto !important;
+}
+
+
+#internship{
+    padding: 10vh 0;
+    height: 100vh;
+}
+
+.card-items{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url('https://cdn.wallpapersafari.com/15/1/3pinwA.jpg');
+}
+
+.card-items .up .two-title{
+    font-family: 'Lobster Two', cursive;
+    color: #fff;
+    font-size: 48px;
+}
+
+.card-items .bottom{
+    width: 90%;
+    margin: 15px auto;
+}
+
+.card-items .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-items .cards .info{
+    color: #111;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 40px 50px;
+    border-radius: 10px;
+    box-shadow: 0px 15px 22px rgba(0, 0, 0, 0.3);
+    align-items: center;
+}
+
+.card-items .cards .info .fea-icons, .fa-leanpub, .fa-brain, .fa-pen{
+    margin: 10px 0px;
+    font-size: 28px;
+    color: orange;
+}
+
+.card-items .cards .info h5{
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 0px 15px 0px;
+}
+
+.card-items .cards .info p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+.card-image{
+    width: 300px;
+    height: 200px;
+}
+
+
+
+#contact{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #112d42;
+    min-height: 80vh;
+}
+
+#contact:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: #03a9f4;
+}
+
+#contact .Container{
+    position: relative;
+    min-width: 1100px;
+    min-height: 550px;
+    display: flex;
+    z-index: 1000;
+}
+
+#contact .Container .contactinfo{
+    position: absolute;
+    top: 90px;
+    width: 350px;
+    height: calc(100% - 160px);
+    background: #0f3959;
+    z-index: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+#contact .Container .contactinfo h2{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#contact .Container .contactinfo .info{
+    position: relative;
+    margin: 20px 0;
+    padding-left: 0px !important;
+}
+
+#contact .Container .contactinfo .info li{
+    position: relative;
+    list-style: none;
+    display: flex;
+    margin: 20px 0;
+    display: flex;
+    font-size: 14px;
+    align-items: flex-start;
+    cursor: pointer;
+}
+
+#contact .Container .contactinfo .info li span:nth-child(1){
+    width: 30px;
+    min-width: 30px;
+    color: #fff;
+    opacity: 0.65;
+}
+
+#contact .Container .contactinfo .info li:hover span:nth-child(1){
+    opacity: 1;
+}
+
+#contact .Container .contactinfo .info li span:nth-child(2){
+    width: 100%;
+    min-width: 30px;
+    color: #fff;
+    opacity: 0.65;
+}
+
+#contact .Container .contactinfo .info li:hover span:nth-child(2){
+    opacity: 1;
+}
+
+#contact .Container .contactinfo .sci{
+    position: relative;
+    display: flex;
+    margin-bottom: 0 !important;
+    padding-left: 0 !important;
+}
+
+#contact .Container .contactinfo .sci li{
+    list-style: none;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+#conntact .Container .contactinfo .sci li a .fa-linkedin, .fa-github, .fa-whatsapp{
+    color: #fff;
+}
+
+#contact .Container .contactForm{
+    position: absolute;
+    padding: 70px 50px;
+    background: #fff;
+    width: calc(100% - 150px);
+    margin-left: 150px;
+    padding-left: 250px;
+    top: 50px;
+    height: 85%;
+    box-shadow: 0 50px 50px rgba(0, 0, 0, 0.45);
+}
+
+#contact .Container .contactForm h2{
+    color: #0f3959;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#contact .Container .contactForm .formBox{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+#contact .Container .contactForm .formBox .inputBox{
+    position: relative;
+    margin: 0 0 35px 0;
+}
+
+#contact .Container .contactForm .formBox .inputBox.w50{
+    width: 47%;
+}
+
+#contact .Container .contactForm .formBox .inputBox.w100{
+    width: 100%;
+}
+
+#contact .Container .contactForm .formBox .inputBox input, textarea{
+    width: 100% !important;
+    resize: none;
+    padding: 5px 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    border: none;
+    border-bottom: 1px solid #777;
+    outline: none;
+}
+
+#contact .Container .contactForm .formBox .inputBox textarea{
+    min-height: 60px;
+}
+
+#contact .Container .contactForm .formBox .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 14px;
+    font-weight: 300;
+    color: #333;
+    transition: 0.5s;
+    pointer-events: none;
+}
+
+#contact .Container .contactForm .formBox .inputBox input:focus ~ span, 
+#contact .Container .contactForm .formBox .inputBox textarea:focus ~ span,
+#contact .Container .contactForm .formBox .inputBox input:valid ~ span,
+#contact .Container .contactForm .formBox .inputBox textarea:valid ~ span{
+    transform: translateY(-25px);
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: crimson;
+}
+
+#contact .Container .contactForm .formBox .inputBox input[type="submit"]{
+    position: absolute;
+    cursor: pointer;
+    background: #0f3959;
+    color: #fff;
+    border: none;
+    outline: none;
+    max-width: 150px;
+    padding: 12px;   
+}
+
+#contact .Container .contactForm .formBox .inputBox input[type="submit"]:hover{
+    background: crimson;
+}
+
+#contact .up{
+    position: absolute;
+    bottom: 40px;
+    right: 30px;
+}
+
+#contact .up .fa-arrow-circle-up{
+    font-size: 32px;
+    color: #fff;
+    cursor: pointer;
+}
